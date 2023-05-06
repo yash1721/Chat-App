@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background: #1a0327;
+    font-family: 'Poppins', sans-serif;
+
+}.type{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    margin: 10px 15px;
+    font-weight: bold;
+}
+.title a{
+    text-decoration: none;
+}
+.title a:hover{
+    color: #FEC53A;
+}
+.title a.active{
+    color: #FEC53A;
+}
+
